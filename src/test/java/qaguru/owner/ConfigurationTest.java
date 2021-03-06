@@ -14,7 +14,7 @@ public class ConfigurationTest {
                 .isEqualTo("http://localhost:4444");
         assertThat(config.getWebDriverBrowser())
                 .isEqualTo("chrome");
-        assertThat(config.getBaseUrl())
-                .isEqualTo("https://testing.google.com/");
+        assertThat(config.isEnabled())
+                .isEqualTo(true);
     }
 }

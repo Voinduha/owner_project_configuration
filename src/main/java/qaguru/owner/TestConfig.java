@@ -12,4 +12,8 @@ public class TestConfig {
     public String getBaseUrl() {
         return System.getProperty("baseUrl");
     }
+
+    public boolean isEnabled() {
+        return Boolean.valueOf(System.getProperty("enabled"));
+    }
 }
