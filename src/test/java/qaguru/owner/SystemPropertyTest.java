@@ -10,7 +10,8 @@ public class SystemPropertyTest {
     @Test
     @Disabled
     public void testSystemProperty() {
-        assertThat(System.getProperty("browser")).isEqualTo("firefox");
+        assertThat(System.getProperty("browser"))
+                .isEqualTo("firefox");
 
     }
 }
