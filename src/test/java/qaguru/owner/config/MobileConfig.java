@@ -2,7 +2,7 @@ package qaguru.owner.config;
 
 import org.aeonbits.owner.Config;
 
-@Config.Sources("classpath:ios.properties")
+@Config.Sources("classpath:${platform}.properties")
 public interface MobileConfig extends Config {
 
     @Key("platform.name")
