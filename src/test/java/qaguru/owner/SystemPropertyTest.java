@@ -7,8 +7,8 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 public class SystemPropertyTest {
 
-    @Test
     @Disabled
+    @Test
     public void testSystemProperty() {
         assertThat(System.getProperty("browser"))
                 .isEqualTo("firefox");
