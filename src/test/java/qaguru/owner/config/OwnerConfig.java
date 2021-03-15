@@ -13,6 +13,4 @@ public interface OwnerConfig extends Config {
 
     @Key("remote_url")
     String remoteUrl();
-
-
 }
